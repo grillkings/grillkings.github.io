@@ -102,57 +102,9 @@ function sendMsg(e) {
   
   window.location.replace("congratulations.html")
 
-
-
-  // alert(`Hi ${name.value}, your order has been received, We will get back to you as soon as possible. Thank you...`)
-
-
-  // Email.send({
-  //   SecureToken: "83cca1a0-dc66-4c31-92db-0561412b918c",
-  //   To: 'anyomiprince27@gmail.com',
-  //   From: 'anyomiprince27@gmail.com',
-  //   Subject: 'Grill Kings Orders',
-  //   Body: `Name: ${name.value} <br> Email: ${number.value}  <br>  Message: ${msg.value}`
-  // }).then(
-  //   message => alert(`Hi ${name.value}, your order has been received, I will get back to you as soon as possible. Thank you... <br> --Grill Kings--`)
-  // );
-
 }
 
 form.addEventListener('submit', sendMsg);
 
 
 
-// Get Data
-// function sendOrders(e) {
-//   e.preventDefault();
-
-//   const firebaseConfig = {
-//     apiKey: "AIzaSyAxgzU69UeVlass3pTeFT4PxM7Y5jMs6zE",
-//     authDomain: "persbemarket.firebaseapp.com",
-//     projectId: "persbemarket",
-//     storageBucket: "persbemarket.appspot.com",
-//     messagingSenderId: "604219818196",
-//     appId: "1:604219818196:web:ce6c68675b97210eebfb41",
-//     measurementId: "G-W2T2PRLTLS"
-//   };
-
-//   firebase.initializeApp(firebaseConfig);
-//   let db = firebase.firestore();
-
-//   const name = document.querySelector('.name'),
-//     number = document.querySelector('.number'),
-//     msg = document.querySelector('.msg');
-
-
-
-//   // db.collection("Orders").doc().set({
-//   //   name: name.value,
-//   //   phone: number.value,
-//   //   order: msg.value
-//   // }).the
-
-//   alert(`Hi ${name.value}, your order has been received, We will get back to you as soon as possible. Thank you...`)
-
-
-// }
