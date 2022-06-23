@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill Kings</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts      -->
+
+    <header>
+
+        <a href="#" class="logo"><i class='bx bxs-hot'></i>Grill Kings</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy wings</h3>
+                        <p>Chicken wings, style hot sauce, cayenne pepper, garlic salt, black pepper</p>
+                        <a href="#order" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Bbq Wings</h3>
+                        <p>Chicken wings, bbq sauce, chili powder, flour, garlic powder</p>
+
+                        <a href="#order" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>Stir Fried Pork</h3>
+                        <p>Boneless pork chops, stir fry noodles, snow peas, dark soy</p>
+                        <a href="#order" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> our dishes </h3>
+        <h1 class="heading"> popular dishes </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-1.png" alt="">
+                <h3>Bbq wings w/ fried rice</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH¢ 30</span>
+                <a href="#order" class="btn">Place Order</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-2.png" alt="">
+                <h3>Spicy Wings w/ Fries</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH¢ 30</span>
+                <a href="#order" class="btn">Place Order</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/dish-3.png" alt="">
+                <h3>Stir Fried Pork W/ Fries</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>GH¢ 30</span>
+                <a href="#order" class="btn">Place Order</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us? </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="sub-heading">Great Tasting Meals</h3>
+                <p class="sub-heading">We explore the best in these cuisines and create an exact version to
+                    enrich the palettes of our customers. Try our bespoke cooking style, and
+                    enjoy the culinary skills of our expert chefs.</p>
+                <p class="sub-heading">The best thing about our dishes is its nutritional balance.
+                    So apart from the regular dishes that we prepare, there are highly
+                    delicious healthy dishes that our customers love. The visual appeal of
+                    our cuisine is another aspect that they love. All the dishes are prepared and
+                    displayed with visually enhancing culinary delights and served with great value
+                    and respect.</p>
+
+                <p class="sub-heading">Check out our awesome dishes on <a style="color: #ec8320; font-weight: bold;"
+                        href="#menu">our
+                        menu.</a></p>
+
+
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>fast delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>great customer service</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> our menu </h3>
+        <h1 class="heading"> today's speciality </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-1.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Spicy wings w/ rice</h3>
+                    <p>Five (5) wings with rice.</p>
+                    <a href="#order" class="btn">place order</a>
+                    <span class="price">GH¢ 30</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-2.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Spicy wings w/ fries</h3>
+                    <p>Five (5) wings with fries.</p>
+                    <a href="#order" class="btn">place order</a>
+                    <span class="price">GH¢ 30</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-3.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bbq wings w/ rice</h3>
+                    <p>Five (5) wings with rice.</p>
+                    <a href="#order" class="btn">place order</a>
+                    <span class="price">GH¢ 30</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-4.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Bbq wings w/ fries</h3>
+                    <p>Five (5) wings with fries.</p>
+                    <a href="#order" class="btn">place order</a>
+                    <span class="price">GH¢ 30</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-5.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Spring Rolls</h3>
+                    <p>Ten (10) in a pack.</p>
+                    <a href="#order" class="btn">place order</a>
+                    <span class="price">GH¢ 25</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu-7.jpg" alt="">
+                    <a class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cocktails</h3>
+                    <p> 500ml. A blend of oranges, mangoes, banana etc.</p>
+                    <a href="#order" class="btn">place order</a>
+                    <span class="price">GH¢ 15</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> customer's review </h3>
+        <h1 class="heading"> what they say </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>George Blankson</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The food is absolutely amazing – everything we tasted melted in other mouths.
+                        Absolutely the best meal we had while in Ghana. Highly recommend!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Chrisy Quartey</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Service was delightful and very professional. 10/10.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>Christian Abotchie</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The food is always fantastic and no matter what I order I am always delighted with my meal! </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>Akosua Ganyo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Excellent food. It can be expensive but worth it. Highly recommended.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> Fast Delivery </h1>
+
+        <form class="email_form" action="">
+
+            <div class="inputBox">
+
+                <div class="input">
+                    <input class="name" type="" name="name" placeholder="Enter Name" required>
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <input class="number" type="" name="number" placeholder="Enter Number" required>
+                </div>
+
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <textarea class="msg" name="" placeholder="Enter Order details" id="" cols="30" rows="10"
+                        required></textarea>
+                </div>
+
+
+            </div>
+
+            <input type="submit" name="" value="Order Now" class="send btn">
+            <!-- <button class="btn" onclick="sendOrders()">Order Now</button> -->
+
+
+        </form>
+
+
+
+        <div style="align-items: center; margin-left: 150px; margin-top: 50px;">
+            <img style="width: 150px;" src="/images/contactPhone.png" alt="">
+
+            <div style="display: inline-block; margin-left: 20px;">
+                <h3 style="font-size: 25px;">follow us</h3>
+                <a title="Facebook" style="font-size: 50px;" href=""><i class='bx bxl-facebook-circle'></i></a>
+                <a title="Instagram" style="font-size: 50px;" href=""><i class='bx bxl-instagram-alt'></i></a>
+                <a title="WhatsApp" style="font-size: 50px;" href="https://wa.me/+233547759525" target="_blank"><i
+                        class='bx bxl-whatsapp'></i></a>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="https://www.google.com/maps/place/University+of+Ghana/
+                @5.6505673,-0.1984131,17z/data=!3m1!4b1!4m5!3m4!1s0xfdf9c7ebaeabe93:
+                0xd78257e67498c1a0!8m2!3d5.650562!4d-0.1962244" target="_blank">Legon</a>
+
+                <a href="https://www.google.com/maps/place/BAATSONA+TotalEnergies+Service+Station/
+                @5.6274561,-0.0894629,17z/data=!3m1!4b1!4m5!3m4!1s0xfdf84b1249b55d5:0xf2325b18c926da03
+                !8m2!3d5.6274508!4d-0.0872742" target="_blank">Baatsona</a>
+
+            </div>
+
+            <div class="box">
+                <h3>Opening Hours</h3>
+                <h1>Mon - Saturdays: 8am to 5pm</h1>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:+233547759525">+233-547759525</a>
+                <a href="mailto:anyomiprince27@gmail.com">grillkingsannex@gmail.com</a>
+                <!-- <a href="">Accra, Ghana </a> -->
+                <h1>Accra, Ghana</h1>
+            </div>
+
+
+
+        </div>
+
+        <div class="credit"> copyright Ⓒ 2021, Grill Kings </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+
+    </div>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--Firestore Libraries-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+    <!-- <script id="MainScript">
+        const firebaseConfig = {
+            apiKey: "AIzaSyAxgzU69UeVlass3pTeFT4PxM7Y5jMs6zE",
+            authDomain: "persbemarket.firebaseapp.com",
+            projectId: "persbemarket",
+            storageBucket: "persbemarket.appspot.com",
+            messagingSenderId: "604219818196",
+            appId: "1:604219818196:web:ce6c68675b97210eebfb41",
+            measurementId: "G-W2T2PRLTLS"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        let db = firebase.firestore();
+
+
+        // Get Data
+        function sendOrders() {
+            const name = document.querySelector('.name'),
+                number = document.querySelector('.number'),
+                msg = document.querySelector('.msg');
+
+            db.collection("Orders").doc().set({
+                name: name.value,
+                phone: number.value,
+                order: msg.value
+            })
+        }
+
+    </script> -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
