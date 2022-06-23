@@ -98,32 +98,9 @@ const form = document.querySelector('.email_form');
 function sendMsg(e) {
   e.preventDefault();
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyAxgzU69UeVlass3pTeFT4PxM7Y5jMs6zE",
-    authDomain: "persbemarket.firebaseapp.com",
-    projectId: "persbemarket",
-    storageBucket: "persbemarket.appspot.com",
-    messagingSenderId: "604219818196",
-    appId: "1:604219818196:web:ce6c68675b97210eebfb41",
-    measurementId: "G-W2T2PRLTLS"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-  let db = firebase.firestore();
-
-  const name = document.querySelector('.name'),
-    number = document.querySelector('.number'),
-    msg = document.querySelector('.msg');
-  date = Date();
-
-  db.collection("Orders").add({
-    name: name.value,
-    phone: number.value,
-    order: msg.value,
-    creation: firebase.firestore.FieldValue.serverTimestamp()
-  }).then((function () {
-    window.location.replace("congratulations.html")
-  }))
+  
+  
+  window.location.replace("congratulations.html")
 
 
 
