@@ -185,18 +185,24 @@ header .icons #menu-bars {
     font-size: 5rem;
 }
 
+.home {
+    background-color: rgb(255, 255, 255);
+
+}
+
 .home .home-slider .slide {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .home .home-slider .slide .content {
     flex: 1 1 45rem;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -305,6 +311,10 @@ header .icons #menu-bars {
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
+}
+
+.about {
+    background-color: rgb(255, 255, 255);
 }
 
 .about .row {
@@ -448,12 +458,17 @@ header .icons #menu-bars {
     font-size: 2.5rem;
 }
 
+.review {
+    background-color: #ffffff;
+}
+
 .review .slide {
     padding: 2rem;
     box-shadow: var(--box-shadow);
     border: .1rem solid rgba(0, 0, 0, .2);
     border-radius: .5rem;
     position: relative;
+    background-color: rgb(245, 245, 228);
 }
 
 .review .slide .fa-quote-right {
