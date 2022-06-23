@@ -191,10 +191,13 @@ header .icons #menu-bars {
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
+    background-color: #fff;
 }
 
 .home .home-slider .slide .content {
     flex: 1 1 45rem;
+    background-color: #fff;
+
 }
 
 .home .home-slider .slide .image {
