@@ -468,7 +468,7 @@ header .icons #menu-bars {
     border: .1rem solid rgba(0, 0, 0, .2);
     border-radius: .5rem;
     position: relative;
-    background-color: rgb(245, 245, 228);
+    background-color: #ffffff;
 }
 
 .review .slide .fa-quote-right {
