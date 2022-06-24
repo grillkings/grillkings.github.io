@@ -97,8 +97,34 @@ const form = document.querySelector('.email_form');
 
 function sendMsg(e) {
   e.preventDefault();
-
   
+  const firebaseConfig = {
+    apiKey: "XXXXXXXXXXXXXXXXXXXXXXXX",
+    authDomain: "XXXXXXXXXXXXXXXXXXXXXXXXX",
+    projectId: "XXXXXXXXXXXXXX",
+    storageBucket: "XXXXXXXXXXXXXXXXXXXXX",
+    messagingSenderId: "XXXXXXXXXXXXXX",
+    appId: "XXXXXXXXXXX",
+    measurementId: "X-XXXXXXXXXXX"
+
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  let db = firebase.firestore();
+
+  const name = document.querySelector('.name'),
+    number = document.querySelector('.number'),
+    msg = document.querySelector('.msg');
+  date = Date();
+
+  db.collection("Orders").add({
+    name: name.value,
+    phone: number.value,
+    order: msg.value,
+    creation: firebase.firestore.FieldValue.serverTimestamp()
+  }).then((function () {
+    window.location.replace("congratulations.html")
+  }))
   
   window.location.replace("congratulations.html")
 
