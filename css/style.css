@@ -460,6 +460,7 @@ header .icons #menu-bars {
 
 .review {
     background-color: #ffffff;
+    width: 100%;
 }
 
 .review .slide {
@@ -678,6 +679,11 @@ header .icons #menu-bars {
     section {
         padding: 2rem;
     }
+    
+    .review {
+        width: 100%;
+        position: absolute;
+    }
 
 
 }
@@ -720,6 +726,11 @@ header .icons #menu-bars {
     .home .home-slider .slide .content h3 {
         font-size: 5rem;
     }
+    
+    .review {
+        width: 100%;
+        position: absolute;
+    }
 
 }
 
@@ -736,6 +747,11 @@ header .icons #menu-bars {
 
     .order form .inputBox .input {
         width: 100%;
+    }
+    
+    .review {
+        width: 100%;
+        position: absolute;
     }
 
 }
